@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgb(83, 176, 233), rgb(36, 107, 161));
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+h2, h3 {
+    padding-top: 3rem;
+}
+
+.Botoes {
+    padding: 1.4rem;
+}
+
+.Sim {
+    background-color: rgb(69, 235, 69);
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px rgba(14, 14, 14, 0.72);
+}
+
+.Sim:hover {
+    background-color: rgba(16, 183, 16, 0.382);
+}
+
+.Nao {
+    background-color: rgb(250, 44, 44);
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px rgba(14, 14, 14, 0.72);
+    position: relative;
+}
+
+.Nao:hover {
+    background-color: rgba(255, 0, 0, 0.478);
+}
+
+.Primeiro {
+    display: flex;
+    flex-direction: row;
+}
+
+#C {
+    color: rgb(135, 20, 20);
+}
